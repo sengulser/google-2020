@@ -1,0 +1,104 @@
+.header {
+    margin-top:14px;
+    margin-bottom:7px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#color1{
+    background-color:#EEEEEE;
+
+}
+#color2{
+    background-color:#7EE5DA;
+    font-size:16px;
+}
+#color3 {
+    background-color: #70CCC2;
+    font-size: 13px;
+}
+#color4 {
+    background-color: #62B3AA;
+    font-size: 13px;
+}
+.centered-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.centered-table td {
+    border: 2px solid white;
+    text-align: center;
+}
+.center {
+    width: 100%;
+}
+p{
+    font-size:13px;
+    text-align:center;
+}
+.between{
+    margin-right:8px;
+}
+.google {
+    height: 240px;
+    width:400px;
+}
+.googleIcons {
+    height: 20px;
+    width: 20px;
+}
+.bg-gray{
+    background-color:lightgray;
+}
+.bottom-left-menu,
+.bottom-right-menu {
+    position: fixed;
+    bottom: 10px;
+    width: 150px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.bottom-left-menu {
+    left: 10px;
+}
+
+.bottom-right-menu {
+    right: 10px;
+    text-align: right;
+}
+.bottom-left-menu {
+    left: 10px;
+}
+
+.bottom-right-menu {
+    right: 10px;
+    text-align: right;
+}
+
+.bottom-left-menu ul,
+.bottom-right-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-left-menu li,
+.bottom-right-menu li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.bottom-left-menu a,
+.bottom-right-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.bottom-left-menu a:hover,
+.bottom-right-menu a:hover {
+    color: #007bff;
+}
